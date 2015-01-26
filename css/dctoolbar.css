@@ -1,0 +1,62 @@
+.toolbar {
+ background-color:buttonface;
+ border-left:1px solid white;
+ border-right:1px solid #848284;
+ border-top:1px solid white;
+ border-bottom:1px solid #848284;
+}
+
+.buttonDis {
+ border-left:1px solid buttonface;
+ border-right:1px solid buttonface;
+ border-top:1px solid buttonface;
+ border-bottom:1px solid buttonface;
+ font-family:arial;
+ font-size:11px;
+ cursor:hand;
+ padding-right:2px;
+ padding-bottom:2px;
+ Filter:Alpha(Opacity=20);
+}
+
+.buttonOff {
+ border-left:1px solid buttonface;
+ border-right:1px solid buttonface;
+ border-top:1px solid buttonface;
+ border-bottom:1px solid buttonface;
+ font-family:arial;
+ font-size:11px;
+ cursor:hand;
+ padding-right:2px;
+ padding-bottom:2px;
+ Filter:Gray;
+}
+
+.buttonOn {
+ border-left:1px solid white;
+ border-right:1px solid #848284;
+ border-top:1px solid white;
+ border-bottom:1px solid #848284;
+ font-family:arial;
+ font-size:11px;
+ cursor:hand;
+ padding-right:2px;
+ padding-bottom:2px;
+}
+
+.buttonPressed {
+ border-right:1px solid white;
+ border-left:1px solid #848284;
+ border-bottom:1px solid white;
+ border-top:1px solid #848284;
+ font-family:arial;
+ font-size:11px;
+ cursor:hand;
+ padding-left:2px;
+ padding-top:2px;
+}
+
+.textImageText {
+ font-family:arial;
+ font-size:11px;
+}

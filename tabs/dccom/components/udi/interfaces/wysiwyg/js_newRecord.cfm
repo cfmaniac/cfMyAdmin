@@ -1,0 +1,1 @@
+<cfset htmlNum = htmlNum+1><cfoutput>#assocAttribs[ attribIndex ].field#</cfoutput>.value="";document.idEdit<cfoutput>#htmlNum#.document.body.innerHTML</cfoutput>="<cfoutput>#JSStringFormat(assocAttribs[ attribIndex ].default)#</cfoutput>";

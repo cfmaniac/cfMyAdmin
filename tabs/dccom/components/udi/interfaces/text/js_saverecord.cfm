@@ -1,0 +1,1 @@
+<cfinclude template="../js_replaceForeignChars.cfm">

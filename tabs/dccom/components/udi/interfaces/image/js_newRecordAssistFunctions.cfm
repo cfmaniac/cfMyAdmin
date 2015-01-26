@@ -1,0 +1,1 @@
+<CF_DCCOM component="dcSelectImage" createScript="no"></CF_DCCOM>

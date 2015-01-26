@@ -1,0 +1,1 @@
+<cfif assocAttribs[ attribIndex ].default EQ "checked" OR assocAttribs[ attribIndex ].default EQ "Y" OR assocAttribs[ attribIndex ].default EQ "1"><cfoutput>#assocAttribs[ attribIndex ].field#</cfoutput>.checked=true;<cfelse><cfoutput>#assocAttribs[ attribIndex ].field#</cfoutput>.checked=false;</cfif>

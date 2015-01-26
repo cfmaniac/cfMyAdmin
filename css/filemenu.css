@@ -1,0 +1,85 @@
+div.menuBar,
+div.menuBar a.menuButton,
+div.menu,
+div.menu a.menuItem {
+  font-family: "MS Sans Serif", Arial, sans-serif;
+  font-size: 8pt;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+}
+
+div.menuBar {
+  background-color: #D6D3CE;
+  border: 1px solid;
+  border-color: #ffffff #848284 #848284 #ffffff;
+  padding: 4px 2px 4px 2px;
+  text-align: left;
+}
+
+div.menuBar a.menuButton {
+  background-color: transparent;
+  border: 1px solid #D6D3CE;
+  color: #000000;
+  cursor: default;
+  left: 0px;
+  margin: 1px;
+  padding: 0px 6px 1px 6px;
+  position: relative;
+  text-decoration: none;
+  top: 0px;
+  z-index: 100;
+}
+
+div.menuBar a.menuButton:hover {
+  background-color: transparent;
+  border-color: #ffffff #848284 #848284 #ffffff;
+  color: #000000;
+}
+
+div.menuBar a.menuButtonActive,
+div.menuBar a.menuButtonActive:hover {
+  background-color: #D6D3CE;
+  border-color: #848284 #ffffff #ffffff #848284;
+  color: #000000;
+  left: 1px;
+  top: 1px;
+}
+
+div.menu {
+  background-color: #D6D3CE;
+  border: 2px solid;
+  border-color: #ffffff #848284 #848284 #ffffff;
+  left: 0px;
+  padding: 0px 1px 1px 0px;
+  position: absolute;
+  top: 0px;
+  visibility: hidden;
+  z-index: 101;
+}
+
+div.menu a.menuItem {
+  color: #000000;
+  cursor: default;
+  display: block;
+  padding: 3px 1em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+div.menu a.menuItem:hover, div.menu a.menuItemHighlight {
+  background-color: #08246B;
+  color: #ffffff;
+}
+
+div.menu a.menuItem span.menuItemText {}
+
+div.menu a.menuItem span.menuItemArrow {
+  margin-right: -.75em;
+}
+
+div.menu div.menuItemSep {
+  border-top: 1px solid #848284;
+  border-bottom: 1px solid #ffffff;
+  margin: 4px 2px;
+}

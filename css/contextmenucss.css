@@ -1,0 +1,40 @@
+.skin0{
+position:absolute;
+width:155px;
+background-color:buttonface;
+border-left:2px outset white;
+border-top:2px outset white;
+border-right:2px outset #848284;
+border-bottom:2px outset #848284;
+font-family:Verdana;
+line-height:15px;
+cursor:default;
+font-size:11px;
+z-index:100;
+visibility:hidden;
+padding-bottom:10px;
+}
+
+.selected {
+	background:	Highlight;
+	color:		HighlightText;
+}
+
+.menuitems{
+padding-left:0px;
+padding-top:6px;
+padding-right:10px;
+cursor:pointer;
+cursor:hand;
+}
+
+.disabled{
+padding-left:0px;
+padding-top:6px;
+padding-right:10px;
+color:#848284;
+}
+
+.disabled img{
+filter:grey();
+}

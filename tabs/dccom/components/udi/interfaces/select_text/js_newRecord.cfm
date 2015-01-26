@@ -1,0 +1,1 @@
+<cfoutput>#assocAttribs[ attribIndex ].field#</cfoutput>.value="<cfoutput>#assocAttribs[ attribIndex ].default#</cfoutput>";if(<cfoutput>#assocAttribs[ attribIndex ].field#</cfoutput>.selectedIndex==-1)<cfoutput>#assocAttribs[ attribIndex ].field#</cfoutput>.selectedIndex=0;

@@ -1,0 +1,1 @@
+<cfinclude template="..\date\js_newRecordAssistFunctions.cfm">
