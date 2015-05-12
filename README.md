@@ -1,4 +1,4 @@
-![alt tag](https://raw.github.com/webdevsourcerer/cfMyAdmin/master/images/logo.gif)
+![alt tag](https://raw.github.com/cfmaniac/cfMyAdmin/master/images/logo.gif)
 cfMyAdmin 
 =========
 
